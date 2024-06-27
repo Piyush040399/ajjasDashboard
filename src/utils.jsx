@@ -67,7 +67,9 @@ export const averageSpeed = (arr) => {
   let td = totalDistance(arr);
   let tt = totalTime(arr);
 
-  return createSpeedTextBymps(td / tt);
+  let result = (td / tt);
+
+  return createSpeedTextBymps(isNaN(result) ? 0 : result);
 };
 
 export const topSpeed = (arr) => {

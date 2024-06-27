@@ -16,7 +16,8 @@ const RidingBehaviour = ({ data }) => {
     }, 0);
 
     let averageScore = Math.round(a / data.length);
-    setScore(averageScore);
+    let result = isNaN(averageScore) ? 0 : averageScore;
+    setScore(result);
     setScoreText(getScoreTextByScore(averageScore));
   }, [data]);
 
@@ -34,7 +35,7 @@ const RidingBehaviour = ({ data }) => {
 
   return (
     <Card title="Riding Behaviour">
-      <Card removeHeader={true} className="inner-card" >
+      <Card removeHeader={true} className="inner-card">
         <div
           style={{
             display: "flex",

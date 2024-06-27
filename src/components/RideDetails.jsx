@@ -3,6 +3,7 @@ import "./RideDetails.css";
 import arrow from "../assets/images/down-arrow.png";
 
 const RideDetails = ({ label, value, icon }) => {
+  console.log("object", value);
   return (
     <div className="detail-container">
       <div className="detail-header">
