@@ -1,0 +1,32 @@
+.header-container {
+  color: #ffffff;
+  background-color: #1a1a1a;
+  border-radius: 0px 0px 12px 12px;
+  padding: 25px;
+}
+
+.header-text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.82px;
+  margin-bottom: 40px;
+}
+
+.date-range-tab{
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-range-section{
+  display: flex;
+  align-items: center;
+  width: 299px;
+}
+
+.selected-range{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.37px;
+  color: #ffffff;
+  margin-left: 10px;
+}

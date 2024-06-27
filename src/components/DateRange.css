@@ -1,0 +1,128 @@
+.date-container {
+  color: #ffffff;
+  padding: 30px 30px 0 30px;
+  background-color: #1a1a1a;
+  height: 90px;
+  border-radius: 0px 0px 12px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.date-header {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.82px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date-header span {
+  margin-left: 20px;
+}
+
+.save-btn {
+  background: none;
+  border: none;
+  color: #ffbe00;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.1px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+  margin-top: 10px;
+}
+
+.option {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.1px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.selected-option {
+  color: #ffbe00;
+  border-bottom: 2px solid #ffbe00;
+}
+
+.date-select {
+  margin-top: 10px;
+}
+
+.date-select p {
+  color: #f3f3f3;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.1px;
+  padding-bottom: 35px;
+}
+
+.range-option {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 0.8px solid #ffffff26;
+}
+
+.range-option:last-child {
+  border-bottom: none;
+}
+
+.range-option > .title {
+  color: whitesmoke;
+}
+
+.label {
+  color: #ffffff99;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.37px;
+}
+
+.custom-date {
+  margin-top: 15px;
+}
+
+.custom-input-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-input {
+  width: 147px;
+  height: 51px;
+  margin-top: 20px;
+  border: 0.4px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-label {
+  color: rgba(243, 243, 243, 1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.1px;
+}
+
+.input-tab {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+.active > .date-title > .title {
+  color: #ffbe00;
+}
